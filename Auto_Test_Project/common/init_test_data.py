@@ -112,5 +112,3 @@ def init_data(envir=None, site_host=None, func_name=None):
     in_data.set_product_data()
 
 
-if __name__ == '__main__':
-    init_data(envir='pro')

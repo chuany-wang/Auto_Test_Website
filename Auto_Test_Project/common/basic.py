@@ -18,12 +18,12 @@ from typing import TypeVar
 from bs4 import BeautifulSoup
 from common.read_data import read_conf
 from datetime import datetime, timedelta
-from config.locate_config import by_dict, keys_mapping
 from selenium.webdriver.common.by import By
 from config import SCREENSHOT_DIR, JSON_DIR
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import WebDriverWait
+from config.locate_config import by_dict, keys_mapping
 from selenium.webdriver.support import expected_conditions as EC
 
 EM = TypeVar('EM')  # 可以是任何类型。

@@ -7,8 +7,8 @@
 """
 import os
 import yaml
-from typing import TypeVar
 from loguru import logger
+from typing import TypeVar
 from config import STETTING_YAML_DIR, LOCATOR_DIR
 
 T = TypeVar('T')

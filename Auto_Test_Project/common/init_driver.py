@@ -9,8 +9,9 @@
 import sys
 from typing import TypeVar
 from selenium import webdriver
-from selenium.common import SessionNotCreatedException
 from common.lo_logger import logger
+from selenium.common import SessionNotCreatedException
+
 
 sys.path.append('../')
 T = TypeVar("T")

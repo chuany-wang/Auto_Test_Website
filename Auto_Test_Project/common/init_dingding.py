@@ -83,5 +83,3 @@ def send_report(envir) -> None:
     dingding(envir=envir, title=title, text=text)
 
 
-if __name__ == '__main__':
-    print(get_public_ip())

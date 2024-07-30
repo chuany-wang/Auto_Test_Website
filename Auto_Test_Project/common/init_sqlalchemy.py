@@ -3,8 +3,9 @@ import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from contextlib import contextmanager
-from sqlalchemy.orm import declarative_base
 from common.read_data import read_conf
+from sqlalchemy.orm import declarative_base
+
 
 Base = declarative_base()
 
