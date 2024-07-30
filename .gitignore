@@ -1,0 +1,12 @@
+.idea/
+selenium_venv/
+playwright_venv/
+.venv/
+__pycache__/
+log/*
+report/report_allure/*
+report/report_screen/*
+report/report_json/*
+*.log
+*.pyc
+*.pyo
