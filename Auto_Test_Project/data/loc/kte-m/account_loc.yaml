@@ -1,0 +1,11 @@
+#  ------------------------------------------- 谷歌登录  ----------------------------------------------------------
+- social_count:
+    locate: 'yourlocate'
+
+- google_login:
+    locate: 'yourlocate'
+
+- google_login_bak:
+    locate: 'yourlocate'
+
+

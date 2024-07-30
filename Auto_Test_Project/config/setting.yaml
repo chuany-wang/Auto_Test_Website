@@ -1,0 +1,33 @@
+### 通用参数相关配置
+- CURRENCY:
+    CASE_TYPE: 'web'                 # 项目类型   web
+    IS_CLEAN_REPORT: True               # 是否清除 测试历史测试报告结果 * 默认清除
+    LEVEL: 'DEBUG'                     # 'INFO'  #'DEBUG'  # INFO 日志级别
+
+
+### 报告通知相关配置
+- MSG:
+    DINGDING: #钉钉
+      webhook: 'yours'   # 企业钉钉 webhook
+      secret: 'yours'
+
+
+- DB:
+    PRO: "yours"
+    TEST: "yours"
+
+- SSH:
+    ssh_username: 'yours'
+    ssh_password: 'yours
+    ssh_host: 'yours'
+    ssh_port: yours
+
+- REDIS:
+    PRO:
+      host: yours
+      port: yours
+      db: yours
+    TEST:
+      host: yours
+      port: yours
+      db: yours
